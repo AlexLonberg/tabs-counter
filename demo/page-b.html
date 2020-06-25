@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo | Page B | Tabs Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Demo | Page B | Tabs Counter</h1>
+
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="page-a.html">Page A</a></li>
+  </ul>
+
+  <div>
+    <h4>Open</h4>
+    <div id="tabs-counter-open">
+      <div class="line"><span>dsfgsg dsgst</span><span>: 45</span></div>
+      <div class="line"><span>dsfgsg dsgst</span><span>: 45</span></div>
+    </div>
+    <h4>Close</h4>
+    <div id="tabs-counter-close">
+      <div class="line"><span>dsg wsterg trehgrth wrthr t</span><span>: 4</span></div>
+    </div>
+  </div>
+
+  <h2>API</h2>
+  <p>См. devtools</p>
+  <p>
+    window.addEventListener( 'storage', onChanges )
+    <button id="bt-on">on()</button>
+  </p>
+  <p>
+    window.removeEventListener( 'storage', onChanges )
+    <button id="bt-off">off()</button>
+  </p>
+  <p>
+    return { blobUrl: document.URL, ... }
+    <button id="bt-get">get()</button>
+  </p>
+  <p>
+    update and return { open, close }
+    <button id="bt-test">test()</button>
+  </p>
+
+  <script src="/js/app.js"></script>
+</body>
+
+</html>

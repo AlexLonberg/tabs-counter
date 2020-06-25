@@ -1,0 +1,15 @@
+{
+  "debug.node.autoAttach": "on",
+  "liveServer.settings.root": "/demo",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito --remote-debugging-port=9222",
+  "liveServer.settings.ChromeDebuggingAttachment": true,
+  "liveServer.settings.port": 5500,
+  "files.exclude": {
+    "**/node_modules/": true,
+    ".private/": false
+  },
+  "search.exclude": {
+    "**/node_modules/": true,
+    ".private/": false
+  }
+}

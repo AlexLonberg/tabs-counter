@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Console File",
+      "program": "${file}",
+      "port": 9229,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "runtimeArgs": [
+        "--experimental-modules",
+        "--es-module-specifier-resolution=node",
+        "--inspect-brk=9229"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch module file",
+      "program": "${file}",
+      "runtimeArgs": [
+        "--experimental-modules",
+        "--es-module-specifier-resolution=node"
+      ]
+    }
+  ]
+}
